@@ -1,0 +1,12 @@
+.home{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 90vh;
+    >h1{
+        margin: auto 0;
+        font-size: 5rem;
+    }
+}

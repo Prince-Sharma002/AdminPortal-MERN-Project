@@ -1,0 +1,42 @@
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    >label{
+        font-size: 1.5rem;
+        margin-top: 1.5rem;
+    }
+
+    >input{
+        padding: 1rem;
+        width: 20rem;
+    }
+
+    >button{
+        margin-top: 1rem;
+        width: 22rem;
+        background-color: black;
+        color: white;
+        padding: 1rem;
+        border: 2px solid  black;
+        border-radius: 0.5rem;
+        font-size: 1.5rem;
+        font-weight: bold;
+        transition: 0.5s;
+        cursor: pointer;
+        transition: all ease 0.1s;
+    }
+
+    >button:hover{
+        background-color: white;
+        color: black;
+    }
+
+}

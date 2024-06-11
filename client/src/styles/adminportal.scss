@@ -1,0 +1,12 @@
+.adminportal{
+    padding-left: 4rem;
+    >div{
+       text-align: center; 
+    }
+}
+
+.adminUl{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
